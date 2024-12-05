@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2Z Recycler</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/abd2e7e1fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header id="header" class="header">
+        <!-- Hit tap to see the skip to main button immidaitly after loading before doing any thing to see it -->
+        <a href="#commitments" class="skip">Skip to main content</a> 
+        <nav class="navbar">
+            <!-- Logo -->
+                <a href="./index.html">
+                    <img class="nav-logo" src="./img/A2Z.png" alt="A2Z Recycler">
+                </a>
+            <!-- Search Form -->
+            <form class="search-form" action="#" method="GET">
+                <label id="search-label" for="search">search</label>
+                <input type="text" id="search" name="search" placeholder="Search...">
+                <img src="./img/search.svg" alt="search-icon" id="search-icon">
+                <img src="./img/mic.svg" alt="mic-icon" id="mic-icon">
+            </form>
+            <!-- Menu with Links -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./purpose.html" class="nav-link">Purpose</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./login.html" class="nav-link">Login</a>
+                </li>
+            </ul>
+            <!-- Clock -->
+            <div class="clock">
+            </div>
+            <!-- Hamburger Button -->
+            <div class="hamburger-container">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <div class="bubbles">
+            <span style="--x: 30; --y: 2;"></span>
+            <span style="--x: 10; --y: 5;"></span>
+            <span style="--x: 70; --y: 1;"></span>
+            <span style="--x: 40; --y: 6;"></span>
+            <span style="--x: 10; --y: 8;"></span>
+            <span style="--x: 60; --y: 5;"></span>
+            <span style="--x: 90; --y: 2;"></span>
+            <span style="--x: 20; --y: 4;"></span>
+            <span style="--x: 50; --y: 9;"></span>
+            <span style="--x: 100; --y: 1;"></span>
+            <span style="--x: 30; --y: 5;"></span>
+            <span style="--x: 90; --y: 3;"></span>
+            <span style="--x: 50; --y: 2;"></span>
+            <span style="--x: 70; --y: 3;"></span>
+            <span style="--x: 100; --y: 8;"></span>
+            <span style="--x: 40; --y: 7;"></span>
+            <span style="--x: 10; --y: 10;"></span>
+            <span style="--x: 80; --y: 7;"></span>
+            <span style="--x: 30; --y: 2;"></span>
+            <span style="--x: 100; --y: 3;"></span>
+        </div>
+        <div class="main-heading">
+            <div class="text-block">
+                <h1>A2Z Recycler</h1>
+                <h1>A2Z Recycler</h1>
+            </div>
+        </div>
+        <div class="news-button">
+            <button id="to-news-page-button" data-title="news">News</button>
+        </div>
+    </div>
+
+    <!-- Cards -->
+    <div id="commitments">
+        <h2 class="general-header">Our Commitments to a Greener Palnet</h2>
+        <div class="commitments-cards">
+            <!-- First card -->
+            <div class="commitment">
+                <img src="./img/bin.jpg" alt="bin-image">
+                <h2>Efficient Recycling Process</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum delectus asperiores in ullam laboriosam deleniti quasi, nisi earum impedit, consequatur molestias, minus beatae? Nostrum quia nesciunt libero consectetur vero totam.</p>
+            </div>
+            <!-- Second card -->
+            <div class="commitment">
+                <img src="./img/landscape.jpg" alt="landscape-image">
+                <h2>Beautiful Green Landscape</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque incidunt officia voluptatibus fugit id deserunt nostrum consectetur est ipsam necessitatibus, rerum unde deleniti reiciendis, blanditiis autem architecto debitis enim.</p>
+            </div>
+            <!-- Third card -->
+            <div class="commitment">
+                <img src="./img/community.jpg" alt="community-image">
+                <h2>Community Recycling Events</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quod, velit ut cum maxime saepe nam temporibus veniam fugiat sequi voluptas dolores dicta dolore eaque unde accusantium. Read more about our projects <a href="./projects.html">here.</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="items-to-be-recycled-container">
+        <h2 class="general-header">Items To be Recycled</h2>
+        <div class="items-to-be-recycled">
+            <div class="row">
+                <div class="item-to-be-recycled">
+                    <img src="./img/bottles.jpg" alt="plastic-bottles-image">
+                    <div class="text-content">
+                        <h3>Plastic Bottles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veritatis earum tenetur harum quam natus voluptate amet cum. Eveniet, delectus sequi! Ea, tenetur assumenda. Earum ratione maxime nobis cum veniam.<a href="./tips.html?title=plastic">Recycling Tips</a></p>
+                    </div>
+                </div>
+                <div class="item-to-be-recycled">
+                    <img src="./img/cans.jpg" alt="aluminum-cans-image">
+                    <div class="text-content">
+                        <h3>Aluminum Cans</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veritatis earum tenetur harum quam natus voluptate amet cum. Eveniet, delectus sequi! Ea, tenetur assumenda. Earum ratione maxime nobis cum veniam.<a href="./tips.html?title=aluminum">Recycling Tips</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item-to-be-recycled">
+                    <img src="./img/papers.jpg" alt="papers-image">
+                    <div class="text-content">
+                        <h3>Paper Products</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veritatis earum tenetur harum quam natus voluptate amet cum. Eveniet, delectus sequi! Ea, tenetur assumenda. Earum ratione maxime nobis cum veniam.<a href="./tips.html?title=papers">Recycling Tips</a></p>
+                    </div>
+                </div>
+                <div class="item-to-be-recycled">
+                    <img src="./img/cartons.jpg" alt="cartons-image">
+                    <div class="text-content">
+                        <h3>Carton Products</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veritatis earum tenetur harum quam natus voluptate amet cum. Eveniet, delectus sequi! Ea, tenetur assumenda. Earum ratione maxime nobis cum veniam.<a href="./tips.html?title=cartons">Recycling Tips</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-contents">
+            <a href="./privacy.html">Privacy Policy</a>
+            <p>&copy; 2024 A2Z Recycler</p>
+            <div class="icons">
+                <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.svg" alt="instagram-icon"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.svg" alt="facebook-icon"></a>
+                <a href="https://x.com/?lang=en" target="_blank"><img src="./img/x.svg" alt="x-icon"></a>
+            </div>
+        </div>
+        <button id="to-top" data-target="header">top</button>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/home.js"></script>
+</body>
+</html>

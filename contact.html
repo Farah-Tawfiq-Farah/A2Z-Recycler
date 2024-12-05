@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/abd2e7e1fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header id="header" class="header">
+        <!-- Hit tap to see the skip to main button immidaitly after loading before doing any thing to see it -->
+        <a href="#contact-us" class="skip">Skip to main content</a> 
+        <nav class="navbar">
+            <!-- Logo -->
+                <a href="./index.html">
+                    <img class="nav-logo" src="./img/A2Z.png" alt="A2Z Recycler">
+                </a>
+            <!-- Search Form -->
+            <form class="search-form" action="#" method="GET">
+                <label id="search-label" for="search">search</label>
+                <input type="text" id="search" name="search" placeholder="Search...">
+                <img src="./img/search.svg" alt="search-icon" id="search-icon">
+                <img src="./img/mic.svg" alt="mic-icon" id="mic-icon">
+            </form>
+            <!-- Menu with Links -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./purpose.html" class="nav-link">Purpose</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./login.html" class="nav-link">Login</a>
+                </li>
+            </ul>
+            <!-- Clock -->
+            <div class="clock">
+            </div>
+            <!-- Hamburger Button -->
+            <div class="hamburger-container">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="general-heading">
+        <h1>Contact Us</h1>
+    </div>
+
+    <div id="contact-us">
+        <div class="contact-us">
+            <div class="contact-us-info">
+                <!-- Contact details -->
+                <div class="contact-details">
+                    <p>Ph: 0123456789</p>
+                    <p>Email: A2ZRecycler@A2ZRecycler.com</p>
+                    <p>Address: 5 Blah Rd, Sydny NSW 2000</p>
+                </div>
+                <!-- Map -->
+                <div class="location">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6626.568038899356!2d151.21338696457534!3d-33.85657054312424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1712716652353!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <!-- The form -->
+            <div class="contact-us-form">
+                <form id="contact-form" onsubmit="return validateForm()">
+                    <!-- Name -->
+                    <div class="form-group">
+                      <label for="name">Full Name:</label>
+                      <input type="text" id="name" name="name" maxlength="100" required placeholder="Enter your name" autocomplete="on">
+                      <p id="name-error"></p>
+                    </div>
+                    <!-- Email -->
+                    <div class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" required placeholder="Enter your email" autocomplete="on">
+                      <p id="email-error"></p>
+                    </div>
+                    <!-- Phone number -->
+                    <div class="form-group">
+                      <label for="phone">Phone Number:</label>
+                      <input type="text" id="phone" name="phone" maxlength="10" required placeholder="Enter your phone number" autocomplete="on">
+                      <p id="phone-error"></p>
+                    </div>
+                    <!-- Items you want to recycle -->
+                    <div class="form-group">
+                        <label for="items-you-want-to-recycle">Items you want to recycle:</label>
+                        <textarea id="items-you-want-to-recycle" name="message" maxlength="300" required placeholder="Ex: Plastic Bottles"></textarea>
+                    </div>
+                    <!-- Message -->
+                    <div class="form-group">
+                      <label for="message">Message:</label>
+                      <textarea id="message" name="message" maxlength="300" required placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" id="submit">submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-contents">
+            <a href="./privacy.html">Privacy Policy</a>
+            <p>&copy; 2024 A2Z Recycler</p>
+            <div class="icons">
+                <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.svg" alt="instagram-icon"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.svg" alt="facebook-icon"></a>
+                <a href="https://x.com/?lang=en" target="_blank"><img src="./img/x.svg" alt="x-icon"></a>
+            </div>
+        </div>
+        <button id="to-top" data-target="header">top</button>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/contact.js"></script>
+</body>
+</html>

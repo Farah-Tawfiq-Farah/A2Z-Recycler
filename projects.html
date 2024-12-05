@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/abd2e7e1fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header id="header" class="header">
+        <!-- Hit tap to see the skip to main button immidaitly after loading before doing any thing to see it -->
+        <a href="#projects" class="skip">Skip to main content</a> 
+        <nav class="navbar">
+            <!-- Logo -->
+                <a href="./index.html">
+                    <img class="nav-logo" src="./img/A2Z.png" alt="A2Z Recycler">
+                </a>
+            <!-- Search Form -->
+            <form class="search-form" action="#" method="GET">
+                <label id="search-label" for="search">search</label>
+                <input type="text" id="search" name="search" placeholder="Search...">
+                <img src="./img/search.svg" alt="search-icon" id="search-icon">
+                <img src="./img/mic.svg" alt="mic-icon" id="mic-icon">
+            </form>
+            <!-- Menu with Links -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./purpose.html" class="nav-link">Purpose</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./login.html" class="nav-link">Login</a>
+                </li>
+            </ul>
+            <!-- Clock -->
+            <div class="clock">
+            </div>
+            <!-- Hamburger Button -->
+            <div class="hamburger-container">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="general-heading">
+        <h1>Projects Undertaken</h1>
+    </div>
+
+    <div class="projects-image">
+        <img src="./img/projects.jpg" alt="planning-image">
+    </div>
+
+    <div id="projects">
+        <!-- Title -->
+        <div class="accordion">
+            <!-- First item -->
+            <div class="accordion-item">
+                <div class="accordion-item-header">
+                    <h2>Collaborated with an organization Ecogenie</h2>
+                </div>
+                <div class="accordion-item-body">
+                    <p class="accordion-item-body-content">
+                        This one is a Producers Responsibility Organisation that helps you yield maximum benefits from your trash, and specialises in recycling all kinds of packaging waste. The pan-India service also makes recycled apparel, blankets and toys, majorly produced from their sustainably recycled PET bottles.
+                    </p>
+                </div>
+            </div>
+            <!-- Second item -->
+            <div class="accordion-item">
+                <div class="accordion-item-header">
+                    <h2>Co-founded an organization Good Food</h2>
+                </div>
+                <div class="accordion-item-body">
+                    <p class="accordion-item-body-content">
+                        Founded in 2015, this organisation helps food chains and restaurants manage their waste at the source. They collect reject waste from the premises, provide data-driven feedback modules on proper segregation to staff, and ensure that the highest possible amount of waste is reused or recycled. Through their mobile app, which also has a tracking monitor, customers can understand the quality and quantity of their waste on user-friendly graphs. Till date, Good Food has diverted over 9,000 tonnes of waste from landfills.
+                    </p>
+                </div>
+            </div>
+            <!-- Third item -->
+            <div class="accordion-item">
+                <div class="accordion-item-header">
+                    <h2>Partnered with Green Plastic</h2>
+                </div>
+                <div class="accordion-item-body">
+                    <p class="accordion-item-body-content">
+                        Green Plastic connects waste-pickers to global markets, and helps brands switch to high-quality recycled plastic for packaging their goods. Their mobile app provides urban waste-pickers with access to fair market prices, and they are also slowly foraying into coastal communities to address the root cause of ocean plastic.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-contents">
+            <a href="./privacy.html">Privacy Policy</a>
+            <p>&copy; 2024 A2Z Recycler</p>
+            <div class="icons">
+                <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.svg" alt="instagram-icon"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.svg" alt="facebook-icon"></a>
+                <a href="https://x.com/?lang=en" target="_blank"><img src="./img/x.svg" alt="x-icon"></a>
+            </div>
+        </div>
+        <button id="to-top" data-target="header">top</button>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/projects.js"></script>
+</body>
+</html>
